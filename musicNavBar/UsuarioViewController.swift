@@ -8,32 +8,35 @@
 
 import UIKit
 
-class ArtistViewController: UIViewController {
+class UsuarioViewController: UIViewController {
 
     var artist = Artist()
     
-    @IBOutlet weak var artistImageView: UIImageView!
+    @IBOutlet weak var usuarioImageView: UIImageView!
+  
+    @IBOutlet weak var usuarioNameLabel: UILabel!
     
-    @IBOutlet weak var artistNameLabel: UILabel!
+    @IBOutlet weak var profissaoLabel: UILabel!
     
     
-    @IBOutlet weak var artistSongLabel: UILabel!
+    @IBOutlet weak var usuarioAvaliacaoLabel: UILabel!
     
-    
-    @IBOutlet weak var artistAlbumLabel: UILabel!
+    @IBOutlet weak var descricaoUsuarioLabel: UITextView!
+    @IBAction func contratarUsuarioButton(_ sender: Any) {
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-        artistImageView.image = UIImage(named: "fake")
-        
-        artistNameLabel.text = artist.getName();
-        
-        artistSongLabel.text = artist.getSong();
-        
-        artistAlbumLabel.text = artist.getAlbum();
+       usuarioImageView.image = UIImage(named: "fake")
+    
+       usuarioNameLabel.text = artist.getName();
+//        
+       profissaoLabel.text = artist.getSong();
+//        
+       usuarioAvaliacaoLabel.text = artist.getAlbum();
         
         
     }

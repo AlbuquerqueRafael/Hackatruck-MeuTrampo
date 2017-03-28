@@ -14,9 +14,9 @@
 		3FF25BE61E7C6859008C81D4 /* musicNavBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25BE51E7C6859008C81D4 /* musicNavBarTests.swift */; };
 		3FF25BF11E7C6859008C81D4 /* musicNavBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25BF01E7C6859008C81D4 /* musicNavBarUITests.swift */; };
 		3FF25C001E7C69E6008C81D4 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25BFF1E7C69E6008C81D4 /* Artist.swift */; };
-		3FF25C021E7C6B15008C81D4 /* ArtistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C011E7C6B15008C81D4 /* ArtistTableViewController.swift */; };
-		3FF25C041E7C6BC4008C81D4 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C031E7C6BC4008C81D4 /* ArtistTableViewCell.swift */; };
-		3FF25C061E7C7383008C81D4 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C051E7C7383008C81D4 /* ArtistViewController.swift */; };
+		3FF25C021E7C6B15008C81D4 /* UsuarioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C011E7C6B15008C81D4 /* UsuarioTableViewController.swift */; };
+		3FF25C041E7C6BC4008C81D4 /* UsuarioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C031E7C6BC4008C81D4 /* UsuarioTableViewCell.swift */; };
+		3FF25C061E7C7383008C81D4 /* UsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C051E7C7383008C81D4 /* UsuarioViewController.swift */; };
 		3FF25C081E7C82C8008C81D4 /* SeeMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C071E7C82C8008C81D4 /* SeeMoreViewController.swift */; };
 		3FF25C0A1E7C838A008C81D4 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C091E7C838A008C81D4 /* DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
@@ -52,9 +52,9 @@
 		3FF25BF01E7C6859008C81D4 /* musicNavBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicNavBarUITests.swift; sourceTree = "<group>"; };
 		3FF25BF21E7C6859008C81D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FF25BFF1E7C69E6008C81D4 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
-		3FF25C011E7C6B15008C81D4 /* ArtistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistTableViewController.swift; sourceTree = "<group>"; };
-		3FF25C031E7C6BC4008C81D4 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
-		3FF25C051E7C7383008C81D4 /* ArtistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		3FF25C011E7C6B15008C81D4 /* UsuarioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioTableViewController.swift; sourceTree = "<group>"; };
+		3FF25C031E7C6BC4008C81D4 /* UsuarioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioTableViewCell.swift; sourceTree = "<group>"; };
+		3FF25C051E7C7383008C81D4 /* UsuarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioViewController.swift; sourceTree = "<group>"; };
 		3FF25C071E7C82C8008C81D4 /* SeeMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeMoreViewController.swift; sourceTree = "<group>"; };
 		3FF25C091E7C838A008C81D4 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,10 +111,10 @@
 				3FF25BD41E7C6859008C81D4 /* Main.storyboard */,
 				3FF25C091E7C838A008C81D4 /* DescriptionViewController.swift */,
 				3FF25C071E7C82C8008C81D4 /* SeeMoreViewController.swift */,
-				3FF25C051E7C7383008C81D4 /* ArtistViewController.swift */,
-				3FF25C031E7C6BC4008C81D4 /* ArtistTableViewCell.swift */,
+				3FF25C051E7C7383008C81D4 /* UsuarioViewController.swift */,
+				3FF25C031E7C6BC4008C81D4 /* UsuarioTableViewCell.swift */,
 				3FF25BFF1E7C69E6008C81D4 /* Artist.swift */,
-				3FF25C011E7C6B15008C81D4 /* ArtistTableViewController.swift */,
+				3FF25C011E7C6B15008C81D4 /* UsuarioTableViewController.swift */,
 				3FF25BD71E7C6859008C81D4 /* Assets.xcassets */,
 			);
 			path = musicNavBar;
@@ -285,10 +285,10 @@
 				3FF25C001E7C69E6008C81D4 /* Artist.swift in Sources */,
 				3FF25C0A1E7C838A008C81D4 /* DescriptionViewController.swift in Sources */,
 				3FF25BD11E7C6859008C81D4 /* AppDelegate.swift in Sources */,
-				3FF25C041E7C6BC4008C81D4 /* ArtistTableViewCell.swift in Sources */,
+				3FF25C041E7C6BC4008C81D4 /* UsuarioTableViewCell.swift in Sources */,
 				3FF25C081E7C82C8008C81D4 /* SeeMoreViewController.swift in Sources */,
-				3FF25C021E7C6B15008C81D4 /* ArtistTableViewController.swift in Sources */,
-				3FF25C061E7C7383008C81D4 /* ArtistViewController.swift in Sources */,
+				3FF25C021E7C6B15008C81D4 /* UsuarioTableViewController.swift in Sources */,
+				3FF25C061E7C7383008C81D4 /* UsuarioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

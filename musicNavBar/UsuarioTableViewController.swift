@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ArtistTableViewController: UITableViewController {
+class UsuarioTableViewController: UITableViewController {
 
     let searchController = UISearchController(searchResultsController: nil)
     
@@ -55,9 +55,9 @@ class ArtistTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(
-            withIdentifier: "artistIdentifier", for: indexPath)
+            withIdentifier: "userIdentifier", for: indexPath)
         
-        if let artistCell = cell as? ArtistTableViewCell{
+        if let userCell = cell as? UsuarioTableViewCell{
             let artist: Artist
             
             if searchController.isActive && searchController.searchBar.text != "" {
@@ -66,8 +66,8 @@ class ArtistTableViewController: UITableViewController {
                 artist = artists[indexPath.row]
             }
             
-            artistCell.artistNameLabel.text = artist.getName();
-            artistCell.artistSongLabel.text = artist.getSong();
+            userCell.userNameLabel.text = artist.getName();
+            userCell.profissaoUserLabel.text = artist.getSong();
         }
         
         // Configure the cell...
@@ -112,7 +112,7 @@ class ArtistTableViewController: UITableViewController {
         
         if segue.identifier == "showNextView"
         {
-            if let newView = segue.destination as? ArtistViewController {
+            if let newView = segue.destination as? UsuarioViewController {
                 
                 let index = tableView.indexPathForSelectedRow?.row
                 
@@ -161,7 +161,7 @@ class ArtistTableViewController: UITableViewController {
 }
 
 
-extension ArtistTableViewController: UISearchResultsUpdating {
+extension UsuarioTableViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         filterContent(for: searchController.searchBar.text!)
     }

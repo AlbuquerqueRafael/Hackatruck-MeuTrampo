@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3FF25BD11E7C6859008C81D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25BD01E7C6859008C81D4 /* AppDelegate.swift */; };
-		3FF25BD31E7C6859008C81D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25BD21E7C6859008C81D4 /* ViewController.swift */; };
 		3FF25BD61E7C6859008C81D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF25BD41E7C6859008C81D4 /* Main.storyboard */; };
 		3FF25BD81E7C6859008C81D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF25BD71E7C6859008C81D4 /* Assets.xcassets */; };
 		3FF25BDB1E7C6859008C81D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF25BD91E7C6859008C81D4 /* LaunchScreen.storyboard */; };
 		3FF25BE61E7C6859008C81D4 /* musicNavBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25BE51E7C6859008C81D4 /* musicNavBarTests.swift */; };
 		3FF25BF11E7C6859008C81D4 /* musicNavBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25BF01E7C6859008C81D4 /* musicNavBarUITests.swift */; };
+		3FF25C001E7C69E6008C81D4 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25BFF1E7C69E6008C81D4 /* Artist.swift */; };
+		3FF25C021E7C6B15008C81D4 /* ArtistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C011E7C6B15008C81D4 /* ArtistTableViewController.swift */; };
+		3FF25C041E7C6BC4008C81D4 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C031E7C6BC4008C81D4 /* ArtistTableViewCell.swift */; };
+		3FF25C061E7C7383008C81D4 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C051E7C7383008C81D4 /* ArtistViewController.swift */; };
+		3FF25C081E7C82C8008C81D4 /* SeeMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C071E7C82C8008C81D4 /* SeeMoreViewController.swift */; };
+		3FF25C0A1E7C838A008C81D4 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF25C091E7C838A008C81D4 /* DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		3FF25BCD1E7C6859008C81D4 /* musicNavBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicNavBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF25BD01E7C6859008C81D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FF25BD21E7C6859008C81D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FF25BD51E7C6859008C81D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FF25BD71E7C6859008C81D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF25BDA1E7C6859008C81D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		3FF25BEC1E7C6859008C81D4 /* musicNavBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicNavBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF25BF01E7C6859008C81D4 /* musicNavBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicNavBarUITests.swift; sourceTree = "<group>"; };
 		3FF25BF21E7C6859008C81D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF25BFF1E7C69E6008C81D4 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		3FF25C011E7C6B15008C81D4 /* ArtistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistTableViewController.swift; sourceTree = "<group>"; };
+		3FF25C031E7C6BC4008C81D4 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		3FF25C051E7C7383008C81D4 /* ArtistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		3FF25C071E7C82C8008C81D4 /* SeeMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeMoreViewController.swift; sourceTree = "<group>"; };
+		3FF25C091E7C838A008C81D4 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,15 @@
 		3FF25BCF1E7C6859008C81D4 /* musicNavBar */ = {
 			isa = PBXGroup;
 			children = (
-				3FF25BD01E7C6859008C81D4 /* AppDelegate.swift */,
-				3FF25BD21E7C6859008C81D4 /* ViewController.swift */,
+				3FF25BFE1E7C6869008C81D4 /* Support */,
 				3FF25BD41E7C6859008C81D4 /* Main.storyboard */,
+				3FF25C091E7C838A008C81D4 /* DescriptionViewController.swift */,
+				3FF25C071E7C82C8008C81D4 /* SeeMoreViewController.swift */,
+				3FF25C051E7C7383008C81D4 /* ArtistViewController.swift */,
+				3FF25C031E7C6BC4008C81D4 /* ArtistTableViewCell.swift */,
+				3FF25BFF1E7C69E6008C81D4 /* Artist.swift */,
+				3FF25C011E7C6B15008C81D4 /* ArtistTableViewController.swift */,
 				3FF25BD71E7C6859008C81D4 /* Assets.xcassets */,
-				3FF25BD91E7C6859008C81D4 /* LaunchScreen.storyboard */,
-				3FF25BDC1E7C6859008C81D4 /* Info.plist */,
 			);
 			path = musicNavBar;
 			sourceTree = "<group>";
@@ -123,6 +136,16 @@
 				3FF25BF21E7C6859008C81D4 /* Info.plist */,
 			);
 			path = musicNavBarUITests;
+			sourceTree = "<group>";
+		};
+		3FF25BFE1E7C6869008C81D4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				3FF25BD01E7C6859008C81D4 /* AppDelegate.swift */,
+				3FF25BD91E7C6859008C81D4 /* LaunchScreen.storyboard */,
+				3FF25BDC1E7C6859008C81D4 /* Info.plist */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF25BD31E7C6859008C81D4 /* ViewController.swift in Sources */,
+				3FF25C001E7C69E6008C81D4 /* Artist.swift in Sources */,
+				3FF25C0A1E7C838A008C81D4 /* DescriptionViewController.swift in Sources */,
 				3FF25BD11E7C6859008C81D4 /* AppDelegate.swift in Sources */,
+				3FF25C041E7C6BC4008C81D4 /* ArtistTableViewCell.swift in Sources */,
+				3FF25C081E7C82C8008C81D4 /* SeeMoreViewController.swift in Sources */,
+				3FF25C021E7C6B15008C81D4 /* ArtistTableViewController.swift in Sources */,
+				3FF25C061E7C7383008C81D4 /* ArtistViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +533,7 @@
 				3FF25BF71E7C6859008C81D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF25BF81E7C6859008C81D4 /* Build configuration list for PBXNativeTarget "musicNavBarTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +542,7 @@
 				3FF25BFA1E7C6859008C81D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF25BFB1E7C6859008C81D4 /* Build configuration list for PBXNativeTarget "musicNavBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +551,7 @@
 				3FF25BFD1E7C6859008C81D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
